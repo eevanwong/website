@@ -15,6 +15,12 @@ function About() {
             Waterloo! I aim to utilize technology to solve real world problems,
             using design and development. I'm always open to discuss ideas and
             opportunities.
+            <br></br>
+            <br></br>
+            <br></br>
+            Sorry, not much is here at the moment. Please check out my resume
+            and github for my qualifications and projects that I am currently
+            working on.
           </h3>
         </div>
       </div>

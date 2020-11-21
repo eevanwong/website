@@ -20,13 +20,7 @@ function Navbar() {
           <div className="navbar-items">
             <ul>
               <li>
-                <a href="">About</a>
-              </li>
-              <li>
-                <a href="">Projects</a>
-              </li>
-              <li>
-                <a href={pdf} target="_blank">
+                <a href={pdf} target="_blank" id="n/a">
                   Resume
                 </a>
               </li>
@@ -39,3 +33,16 @@ function Navbar() {
 }
 
 export default Navbar;
+/*
+
+              <li>
+                <a href="" className="not-available">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="" className="not-available">
+                  Projects
+                </a>
+              </li>
+*/

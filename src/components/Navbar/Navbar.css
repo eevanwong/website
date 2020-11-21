@@ -54,8 +54,17 @@
 
 .navbar-items a {
   text-decoration: none;
+
   color: #f5f5ff;
   font-size: 24px;
+}
+
+.navbar-items a .not-available {
+  text-decoration: line-through !important;
+}
+
+#n/a {
+  text-decoration: none !important;
 }
 
 .navbar-items a:hover {

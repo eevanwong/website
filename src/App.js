@@ -16,7 +16,7 @@ function App() {
       </Switch>
       <Home />
 
-      <About />
+      <About id="top" />
     </Router>
   );
 }
