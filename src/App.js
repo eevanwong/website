@@ -1,22 +1,20 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar.js";
-import Drawertogglebutton from "./components/Sidedrawer/Drawertogglebutton.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/pages/Home/Home.js";
-import About from "./components/pages/About/About.js";
-
+import Home from "./components/Home/Home.js";
+import About from "./components/About/About.js";
+import Projects from "./components/Projects/Projects.js";
+import Footer from "./components/Footer/Footer.js";
 function App() {
   return (
-    <Router>
+    <Router title="Evan Wong">
       <Navbar />
-
-      <Switch>
-        <Route path="/" />
-      </Switch>
       <Home />
 
-      <About id="top" />
+      <About />
+      <Projects />
+      <Footer />
     </Router>
   );
 }

@@ -11,6 +11,7 @@ function Navbar() {
 
   return (
     //fragments
+
     <>
       <div className="navbar-wrapper">
         <div className="navbar">

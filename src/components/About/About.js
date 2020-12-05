@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./About.css";
 
 function About() {
@@ -17,10 +17,8 @@ function About() {
             opportunities.
             <br></br>
             <br></br>
-            <br></br>
-            Sorry, not much is here at the moment. Please check out my resume
-            and github for my qualifications and projects that I am currently
-            working on.
+            <br></br>Catch me watching Basketball, or playing games such as
+            League of Legends, Valorant, and Hades!
           </h3>
         </div>
       </div>
