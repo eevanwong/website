@@ -6,7 +6,7 @@ function About() {
     <>
       <div className="about-wrapper">
         <div className="about-left-text">
-          <h2>HEY!</h2>
+          <h2>About Me</h2>
           <br></br>
           <br></br>
           <br></br>
@@ -16,6 +16,9 @@ function About() {
             using design and development. I'm always open to discuss ideas and
             opportunities.
             <br></br>
+            <br></br>
+            I'm familiar with technologies such as Python, C++, React,
+            JavaScript, MongoDB, and NodeJs
             <br></br>
             <br></br>Catch me watching Basketball, or playing games such as
             League of Legends, Valorant, and Hades!

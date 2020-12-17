@@ -8,7 +8,7 @@ function Projects() {
     <>
       <div className="project-bar-container">
         <div className="project-bar">
-          <h2>Portfolio</h2>
+          <h2>Work</h2>
         </div>
       </div>
       <div className="project">
@@ -23,7 +23,9 @@ function Projects() {
               <img src={leagueimg} alt="" />
             </a>
             <h2>League Stats Discord Bot</h2>
-            <em>Side Project</em>{" "}
+            <h2>
+              <em>Side Project</em>
+            </h2>
           </div>
         </div>
       </div>

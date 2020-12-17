@@ -6,6 +6,7 @@ body {
   width: 60%;
   margin: 0 auto;
   height: 500px;
+  margin-bottom: 40px;
 }
 
 .about-left-text {
@@ -16,10 +17,10 @@ body {
   display: inline;
   margin-top: 100px;
   font-size: 50px;
-  background: #414141;
   color: #f5f5f5;
 }
 
 .about-left-text h3 {
+  color: #fefefe;
   font-size: 25px;
 }

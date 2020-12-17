@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/src/Toronto.gif"); /* W3C */
-  background-size: 100%;
+  background-color: #40484b;
+  /*background: url("/src/Toronto.gif");W3C  */
 }
 .home-wrapper {
-  width: 800px;
+  width: 65%;
   height: 700px;
   margin: 0 auto;
   text-align: left;
@@ -15,14 +15,19 @@
 }
 
 .home-wrapper h2 {
-  margin-top: 40px;
+  margin-top: 2.5em;
   text-align: left;
   font-size: 65px;
   font-weight: 400;
 }
 
+.home-wrapper span {
+  color: #eeeedd;
+}
+
 .home-wrapper h3 {
   font-size: 25px;
+  padding-top: 5px;
 }
 
 .icons {
@@ -40,4 +45,11 @@
 
 .icons img:hover {
   opacity: 0.5;
+}
+
+.txt-type > .txt {
+  margin-top: 10em;
+  font-size: 2em;
+  font-family: "montserrat";
+  border-right: 0.2rem solid white;
 }

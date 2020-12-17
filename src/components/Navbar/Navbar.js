@@ -15,12 +15,31 @@ function Navbar() {
     <>
       <div className="navbar-wrapper">
         <div className="navbar">
-          <drawertogglebutton />
-          <div className="navbar-logo">&lt;EW&gt;</div>
+          <div className="navbar-logo">
+            <Link to="/React-Website/">
+              <a>&lt;EW&gt;</a>
+            </Link>
+          </div>
           <div className="spacer"></div>
           <div className="navbar-items">
             <ul>
               <li>
+                <Link to="/React-Website/About">
+                  <a href={pdf} target="_blank" id="n/a">
+                    About Me
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <div class="slash">\</div>
+                <Link to="/React-Website/Projects">
+                  <a href={pdf} target="_blank" id="n/a">
+                    Projects
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <div class="slash">\</div>
                 <a href={pdf} target="_blank" id="n/a">
                   Resume
                 </a>

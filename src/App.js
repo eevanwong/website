@@ -8,14 +8,13 @@ import Projects from "./components/Projects/Projects.js";
 import Footer from "./components/Footer/Footer.js";
 function App() {
   return (
-    <Router title="Evan Wong">
+    <div className="App">
       <Navbar />
-      <Home />
-
-      <About />
-      <Projects />
+      <Route exact path="/React-Website/" component={Home} />
+      <Route exact path="/React-Website/Projects" component={Projects} />
+      <Route exact path="/React-Website/About" component={About} />
       <Footer />
-    </Router>
+    </div>
   );
 }
 
