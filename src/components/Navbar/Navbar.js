@@ -13,38 +13,34 @@ function Navbar() {
     //fragments
 
     <>
-      <div className="navbar-wrapper">
-        <div className="navbar">
-          <div className="navbar-logo">
-            <Link to="/React-Website/">
-              <a>&lt;EW&gt;</a>
-            </Link>
-          </div>
-          <div className="spacer"></div>
-          <div className="navbar-items">
-            <ul>
-              <li>
-                <Link to="/React-Website/About">
-                  <a href={pdf} target="_blank" id="n/a">
+      <div data-aos="fade-down" data-aos-duration="600">
+        <div className="navbar-wrapper">
+          <div className="navbar">
+            <div className="navbar-logo">
+              <a href="/React-Website/">&lt;EV&gt;</a>
+            </div>
+            <div className="spacer"></div>
+            <div className="navbar-items">
+              <ul>
+                <li>
+                  <a href="/React-Website/About" id="n/a">
                     About Me
                   </a>
-                </Link>
-              </li>
-              <li>
-                <div class="slash">\</div>
-                <Link to="/React-Website/Projects">
-                  <a href={pdf} target="_blank" id="n/a">
+                </li>
+                <li>
+                  <div className="slash">\</div>
+                  <a href="/React-Website/Projects" id="n/a">
                     Projects
                   </a>
-                </Link>
-              </li>
-              <li>
-                <div class="slash">\</div>
-                <a href={pdf} target="_blank" id="n/a">
-                  Resume
-                </a>
-              </li>
-            </ul>
+                </li>
+                <li>
+                  <div className="slash">\</div>
+                  <a href={pdf} target="_blank" id="n/a">
+                    Resume
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

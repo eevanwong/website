@@ -6,3 +6,32 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
+
+@media screen and (min-width: 1600px) {
+  h3 {
+    font-size: 35px;
+  }
+
+  .navbar-items a {
+    font-size: 30px;
+  }
+
+  .navbar-logo a {
+    font-size: 3.2em;
+  }
+
+  h2 {
+    font-size: 65px;
+  }
+  .home-wrapper h2 {
+    font-size: 80px;
+  }
+
+  .grid-item h2 {
+    font-size: 1.5em;
+  }
+
+  .grid-item em {
+    font-size: 22px;
+  }
+}

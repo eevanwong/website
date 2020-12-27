@@ -27,8 +27,8 @@
   font-family: "poppins";
   color: #eee6dd;
   justify-self: start;
-  margin-left: 20px;
-  margin-top: 12px;
+  margin-left: 1.2em;
+  margin-top: 15px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.8rem;
@@ -36,8 +36,13 @@
   font-weight: 800;
 }
 
+.navbar-logo a:hover {
+  font-size: 2.1em;
+}
+
 a {
   text-decoration: none;
+  transition: all 0.15s ease-in;
 }
 
 .spacer {
@@ -64,7 +69,6 @@ a {
 
 .navbar-items a {
   text-decoration: none;
-  transition: all 0.15s ease-in;
 
   color: #eee6dd;
   font-size: 24px;

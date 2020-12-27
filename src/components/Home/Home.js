@@ -4,27 +4,30 @@ import "./Home.css";
 function Home() {
   return (
     <>
-      <div className="home">
-        <div className="home-wrapper">
-          <h2>
-            Hey, I'm <span>Evan</span>
-          </h2>
-          <span
-            class="txt-type"
-            data-wait="2000"
-            data-words='["Torontonian","Systems Design Engineer","Competitive Swimmer", "Miami Heat Fan"]'
-          >
-            {" "}
-          </span>
-          <br></br>
-          <h3>
-            Currently developing features for Open Source Libraries such as
-            Apache Drill at the University of Waterloo
-          </h3>
-          <br></br>
-          <br></br>
+      <div data-aos="fade-up" data-aos-duration="600">
+        <div className="home">
+          <div className="home-wrapper">
+            <h2>
+              Hey, I'm <span>Evan</span>
+            </h2>
+            <span
+              className="txt-type"
+              data-wait="2000"
+              data-words='["Torontonian","Systems Design Engineer","Competitive Swimmer", "Miami Heat Fan"]'
+            >
+              {" "}
+            </span>
+            <br></br>
 
-          <h3>Looking for Development Opportunities for Winter 2021</h3>
+            <h3>
+              Currently developing features for Open Source Libraries such as
+              Apache Drill at the University of Waterloo
+            </h3>
+            <br></br>
+            <br></br>
+
+            <h3>Looking for Development Opportunities for Winter 2021</h3>
+          </div>
         </div>
       </div>
     </>
@@ -33,6 +36,7 @@ function Home() {
 
 export default Home;
 
+/*
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     console.log("k");
@@ -91,7 +95,7 @@ class TypeWriter {
 }
 
 //Init On DOM Load
-document.addEventListener("componentDidMount", init);
+//window.onload = init();
 //Inits app
 function init() {
   const txtElement = document.querySelector(".txt-type");
@@ -100,3 +104,4 @@ function init() {
 
   new TypeWriter(txtElement, words, wait);
 }
+*/

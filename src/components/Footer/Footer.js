@@ -29,7 +29,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <h1>&lt;/EW&gt;</h1>
+        <h1>&lt;/EV&gt;</h1>
       </div>
     </>
   );
