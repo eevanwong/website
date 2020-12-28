@@ -7,31 +7,41 @@
   font-weight: 300;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-height: 900px) {
+  .home-wrapper {
+    padding-bottom: 19em !important;
+  }
+
+  .about-wrapper {
+    padding-bottom: 17.3em !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
   h3 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   .navbar-items a {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   .navbar-logo a {
-    font-size: 3.2em;
+    font-size: 2.6em !important;
   }
 
   h2 {
-    font-size: 65px;
+    font-size: 65px !important;
   }
   .home-wrapper h2 {
-    font-size: 80px;
+    font-size: 80px !important;
   }
 
   .grid-item h2 {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
   }
 
   .grid-item em {
-    font-size: 22px;
+    font-size: 22px !important;
   }
 }

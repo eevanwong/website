@@ -19,6 +19,7 @@
   width: 70%;
   height: 100%;
   margin: 0 auto;
+  padding-bottom: 8em;
 }
 
 .project-grid {
@@ -27,7 +28,6 @@
   grid-row-gap: 50px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 35% 35%;
-  margin-bottom: 10em;
 }
 
 .grid-item {

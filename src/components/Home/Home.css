@@ -8,10 +8,11 @@
 }
 .home-wrapper {
   width: 65%;
-  height: 700px;
+  height: 100%;
   margin: 0 auto;
   text-align: left;
   color: #f5f5f5;
+  padding-bottom: 15em;
 }
 
 .home-wrapper h2 {

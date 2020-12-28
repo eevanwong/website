@@ -1,9 +1,7 @@
 .footer-container {
+  clear: both;
   position: relative;
-  min-height: 100%;
-  width: 100%;
-  color: white;
-  align-items: center;
+  height: 100%;
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -30,15 +28,15 @@
 
 .icons-container {
   margin: 0 auto;
-  width: 32%;
+  width: 100%;
 }
 .icons {
   width: 100%;
 }
 
 .icons ul {
-  margin-top: 32px;
-  margin-bottom: 17px;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
 }
 
 .icons ul li {
