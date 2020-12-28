@@ -10,8 +10,8 @@ function Navbar() {
     //fragments
 
     <>
-      <div data-aos="fade-down" data-aos-duration="600">
-        <div className="navbar-wrapper">
+      <div className="navbar-wrapper">
+        <div data-aos="fade-down" data-aos-duration="600">
           <div className="navbar">
             <div className="navbar-logo">
               <a href="#/">&lt;EV&gt;</a>
