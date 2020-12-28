@@ -4,8 +4,8 @@ import "./Home.css";
 function Home() {
   return (
     <>
-      <div data-aos="fade-up" data-aos-duration="600">
-        <div className="home">
+      <div className="home">
+        <div data-aos="fade-up" data-aos-duration="600">
           <div className="home-wrapper">
             <h2>
               Hey, I'm <span>Evan</span>

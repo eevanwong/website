@@ -27,7 +27,7 @@ function Navbar() {
                 <li>
                   <div className="slash">\</div>
                   <a href={"#/Projects"} id="n/a">
-                    Projects
+                    Portfolio
                   </a>
                 </li>
                 <li>

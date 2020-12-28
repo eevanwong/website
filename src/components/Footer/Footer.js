@@ -23,7 +23,7 @@ function Footer() {
                   href="https://www.linkedin.com/in/iamevanwong/"
                   target="_blank"
                 >
-                  Lnkdin
+                  LinkedIn
                 </a>
               </li>
             </ul>

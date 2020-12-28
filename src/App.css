@@ -1,5 +1,5 @@
 * {
-  background-color: #40484b;
+  /*background-color: #40484b;*/
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 
 @media screen and (min-height: 900px) {
   .home-wrapper {
-    padding-bottom: 19em !important;
+    padding-bottom: 19.5em !important;
   }
 
   .about-wrapper {
