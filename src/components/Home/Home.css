@@ -76,7 +76,7 @@
 
   .about {
     background-size: 85%, 100% !important;
-    padding-bottom: 8em;
+    padding-bottom: 5em !important;
   }
 
   .background {

@@ -18,8 +18,8 @@ function About() {
                 problems, using design and development. I'm always open to
                 discuss ideas and opportunities.
                 <br></br>
-                <br></br>Catch me watching Basketball, or playing games such as
-                League of Legends, Valorant, and Hades!
+                <br></br>In my free time I watch basketball and play games such
+                as League of Legends, Valorant, and Hades!
               </h3>
             </div>
           </div>
