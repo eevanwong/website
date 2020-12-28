@@ -14,19 +14,19 @@ function Navbar() {
         <div className="navbar-wrapper">
           <div className="navbar">
             <div className="navbar-logo">
-              <a href={process.env.PUBLIC_URL + "/"}>&lt;EV&gt;</a>
+              <a href="#/">&lt;EV&gt;</a>
             </div>
             <div className="spacer"></div>
             <div className="navbar-items">
               <ul>
                 <li>
-                  <a href={process.env.PUBLIC_URL + "/About"} id="n/a">
+                  <a href="#/About" id="n/a">
                     About Me
                   </a>
                 </li>
                 <li>
                   <div className="slash">\</div>
-                  <a href={process.env.PUBLIC_URL + "/Projects"} id="n/a">
+                  <a href={"#/Projects"} id="n/a">
                     Projects
                   </a>
                 </li>

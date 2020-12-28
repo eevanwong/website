@@ -10,13 +10,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-      <Route
-        exact
-        path={process.env.PUBLIC_URL + "/Projects"}
-        component={Projects}
-      />
-      <Route exact path={process.env.PUBLIC_URL + "/About"} component={About} />
+      <Route exact path={"/"} component={Home} />
+      <Route exact path={"/Projects"} component={Projects} />
+      <Route exact path={"/About"} component={About} />
       <Footer />
     </div>
   );
