@@ -20,8 +20,8 @@ function Home() {
             <br></br>
 
             <h3>
-              Currently developing features for Open Source Libraries such as
-              Apache Drill at the University of Waterloo
+              Currently developing features for Open Source Libraries at the
+              University of Waterloo
             </h3>
             <br></br>
             <br></br>

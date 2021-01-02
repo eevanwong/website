@@ -4,10 +4,10 @@
   justify-content: center;
   align-items: center;
   background: url("/src/Toronto.gif");
-  background-size: 75%, 100%;
+  background-size: cover;
 }
 .home-wrapper {
-  width: 63em;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   text-align: left;
