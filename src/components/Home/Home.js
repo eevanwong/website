@@ -5,10 +5,10 @@ function Home() {
   return (
     <>
       <div className="home">
-        <div data-aos="fade-up" data-aos-duration="600">
-          <div className="home-wrapper">
+        <div className="home-wrapper">
+          <div data-aos="fade-up" data-aos-duration="600">
             <h2>
-              Hey, I'm <span>Evan</span>
+              Hey, I'm <span>Evan.</span>
             </h2>
             <span
               className="txt-type"
@@ -17,16 +17,13 @@ function Home() {
             >
               {" "}
             </span>
-            <br></br>
 
-            <h3>
-              Currently developing features for Open Source Libraries at the
-              University of Waterloo
-            </h3>
+            <h3>Developing @uWaterloo</h3>
+            <br></br>
             <br></br>
             <br></br>
 
-            <h3>Looking for Development Opportunities for Winter 2021</h3>
+            <h4>[Looking for Development Opportunities for Winter 2021]</h4>
           </div>
         </div>
       </div>

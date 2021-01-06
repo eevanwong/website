@@ -1,0 +1,120 @@
+{
+   "ID" : "001",
+   "name" : "Adam",
+   "age" : 12,
+   "gender" : "male",
+   "standard" : "six",
+   "mark1" : 70,
+   "mark2" : 50,
+   "mark3" : 60,
+   "addr" : "23 new street",
+   "pincode" : 111222
+}
+{
+   "ID" : "002",
+   "name" : "Amit",
+   "age" : 12,
+   "gender" : "male",
+   "standard" : "six",
+   "mark1" : 40,
+   "mark2" : 50,
+   "mark3" : 40,
+   "addr" : "12 old street",
+   "pincode" : 111222
+}
+{
+   "ID" : "003",
+   "name" : "Bob",
+   "age" : 12,
+   "gender" : "male",
+   "standard" : "six",
+   "mark1" : 60,
+   "mark2" : 80,
+   "mark3" : 70,
+   "addr" : "10 cross street",
+   "pincode" : 111222
+}
+{
+   "ID" : "004",
+   "name" : "David",
+   "age" : 12,
+   "gender" : "male",
+   "standard" : "six",
+   "mark1" : 50,
+   "mark2" : 70,
+   "mark3" : 70,
+   "addr" : "15 express avenue",
+   "pincode" : 111222
+}
+{
+   "ID" : "005",
+   "name" : "Esha",
+   "age" : 12,
+   "gender" : "female",
+   "standard" : "six",
+   "mark1" : 70,
+   "mark2" : 60,
+   "mark3" : 65,
+   "addr" : "20 garden street",
+   "pincode" : 111222
+}
+{
+   "ID" : "006",
+   "name" : "Ganga",
+   "age" : 12,
+   "gender" : "female",
+   "standard" : "six",
+   "mark1" : 100,
+   "mark2" : 95,
+   "mark3" : 98,
+   "addr" : "25 north street",
+   "pincode" : 111222
+}
+{
+   "ID" : "007",
+   "name" : "Jack",
+   "age" : 13,
+   "gender" : "male",
+   "standard" : "six",
+   "mark1" : 55,
+   "mark2" : 45,
+   "mark3" : 45,
+   "addr" : "2 park street",
+   "pincode" : 111222
+}
+{
+   "ID" : "008",
+   "name" : "Leena",
+   "age" : 12,
+   "gender" : "female",
+   "standard" : "six",
+   "mark1" : 90,
+   "mark2" : 85,
+   "mark3" : 95,
+   "addr" : "24 south street",
+   "pincode" : 111222
+}
+{
+   "ID" : "009",
+   "name" : "Mary",
+   "age" : 13,
+   "gender" : "female",
+   "standard" : "six",
+   "mark1" : 75,
+   "mark2" : 85,
+   "mark3" : 90,
+   "addr" : "5 west street",
+   "pincode" : 111222
+}
+{
+   "ID" : "010",
+   "name" : "Peter",
+   "age" : 13,
+   "gender" : "female",
+   "standard" : "six",
+   "mark1" : 80,
+   "mark2" : 85,
+   "mark3" : 88,
+   "addr" : "16 park avenue",
+   "pincode" : 111222
+}

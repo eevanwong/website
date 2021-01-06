@@ -20,13 +20,13 @@ function Navbar() {
             <div className="navbar-items">
               <ul>
                 <li>
-                  <a href="#/About" id="n/a">
+                  <a href="#/About" id="about">
                     About Me
                   </a>
                 </li>
                 <li>
                   <div className="slash">\</div>
-                  <a href={"#/Projects"} id="n/a">
+                  <a href={"#/Projects"} id="projects">
                     Portfolio
                   </a>
                 </li>

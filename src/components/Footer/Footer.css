@@ -7,46 +7,51 @@
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
 }
 
-.footer-container h1 {
-  font-family: "poppins";
-  font-size: 25px;
-  opacity: 0.5;
-  text-align: center;
-  font-weight: 600;
-  color: #eeeedd;
-  padding-bottom: 15px;
-}
-
-.icons a {
-  font-family: "poppins";
-  font-size: 25px;
-  opacity: 0.5;
-  text-align: center;
-  font-weight: 600;
-  color: #eeeedd;
-  text-decoration: none;
-  transition: all 0.15s ease-in;
-}
-
 .icons-container {
   margin: 0 auto;
-  width: 100%;
+  width: 70%;
+  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
 }
+
+.icons-container h1 {
+  font-family: "poppins";
+  color: #eee6dd;
+  font-size: 1.6em;
+  margin-bottom: 1.2vh;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
 .icons {
   width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.icons ul li a img {
+  font-family: "Source sans pro";
+  font-size: 25px;
+  text-align: center;
+  color: #eeeedd;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: all 0.15s ease-in;
+  width: 1.8em;
+  height: 1.8em;
 }
 
 .icons ul {
-  margin-top: 1.3em;
-  margin-bottom: 1.3em;
+  width: 100%;
+  margin-top: 0.8vh;
+  margin-bottom: 1vh;
 }
 
 .icons ul li {
-  margin-left: 15px;
-  margin-right: 15px;
   display: inline-block;
+  margin-right: 1.5vw;
 }
 
-.icons a:hover {
+.icons ul li img:hover {
   opacity: 1;
 }

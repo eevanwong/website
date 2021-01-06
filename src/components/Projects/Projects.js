@@ -23,7 +23,7 @@ function Projects() {
                   <em>University of Waterloo</em>
                 </div>
               </div>
-              <div data-aos="fade-up" data-aos-delay="150">
+              <div data-aos="fade-up">
                 <div className="grid-item">
                   <a
                     href="https://github.com/eevanwong/League-Bot"

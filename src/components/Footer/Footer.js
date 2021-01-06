@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import mail from "./email.png";
+import github from "./github.png";
+import linkedin from "./linkedin1.png";
 
 function Footer() {
   return (
@@ -9,13 +12,17 @@ function Footer() {
           <div class="icons">
             <ul>
               <li>
-                <a href="mailto: e92wong@uwaterloo.ca" target="_blank">
-                  Outlook
+                <a
+                  href="mailto:e92wong@uwaterloo.ca"
+                  target="_blank"
+                  id="email"
+                >
+                  <img src={mail} />
                 </a>
               </li>
               <li>
                 <a href="https://github.com/eevanwong" target="_blank">
-                  GitHub
+                  <img src={github} />
                 </a>
               </li>
               <li>
@@ -23,13 +30,13 @@ function Footer() {
                   href="https://www.linkedin.com/in/iamevanwong/"
                   target="_blank"
                 >
-                  LinkedIn
+                  <img src={linkedin} />
                 </a>
               </li>
             </ul>
           </div>
+          <h1>&lt;/EV&gt;</h1>
         </div>
-        <h1>&lt;/EV&gt;</h1>
       </div>
     </>
   );

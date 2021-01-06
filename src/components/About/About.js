@@ -13,10 +13,10 @@ function About() {
               <br></br>
               <br></br>
               <h3>
-                I'm Evan, a Systems Design Engineering student at the University
-                of Waterloo! I aim to utilize technology to solve real world
-                problems, using design and development. I'm always open to
-                discuss ideas and opportunities.
+                I'm Evan, a torontonian who studies Systems Design Engineering
+                at the University of Waterloo! I aim to utilize technology to
+                solve real world problems, using design and development. I'm
+                always open to discuss ideas and opportunities.
                 <br></br>
                 <br></br>In my free time I watch basketball and play games such
                 as League of Legends, Valorant, and Hades!
