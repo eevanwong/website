@@ -4,8 +4,8 @@ import "./About.css";
 function About() {
   return (
     <>
-      <div className="about">
-        <div data-aos="fade-up" data-aos-duration="600">
+      <div data-aos="fade-in" data-aos-duration="600">
+        <div className="about">
           <div className="about-wrapper">
             <div className="about-left-text">
               <h2>About Me</h2>

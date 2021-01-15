@@ -6,7 +6,7 @@ function Home() {
     <>
       <div className="home">
         <div className="home-wrapper">
-          <div data-aos="fade-up" data-aos-duration="600">
+          <div data-aos="fade-in" data-aos-duration="600">
             <h2>
               Hey, I'm <span>Evan.</span>
             </h2>
@@ -22,7 +22,8 @@ function Home() {
             <br></br>
             <br></br>
             <br></br>
-
+          </div>
+          <div data-aos="fade-in" data-aos-duration="600" data-aos-delay="400">
             <h4>[Looking for Development Opportunities for Winter 2021]</h4>
           </div>
         </div>

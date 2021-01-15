@@ -1,12 +1,15 @@
 .navbar-wrapper {
+  padding-top: 4vh;
+  width: 70%;
+  margin: 0 auto;
+
   /*background-color: #40484b;*/
-  background-color: #000000;
+  /* background-color: #000000; */
+  padding-bottom: 2.5vw;
 }
 
 .navbar {
-  margin: 0 auto;
-  padding-top: 4vw;
-  width: 80%;
+  width: 100%;
   background: transparent;
   height: 60px;
   display: flex;
@@ -15,64 +18,62 @@
   position: sticky;
   top: 0;
   color: black;
-  padding-bottom: 2.5vw;
 }
 
-.navbar-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
-  max-width: 1500px;
-  background-color: black;
+.navbar-logo {
+  width: 100%;
+  display: inline;
 }
-
 .navbar-logo a {
   font-family: "poppins";
   color: #eee6dd;
-  justify-self: start;
-  margin-left: 1.2em;
-  margin-top: 15px;
-  cursor: pointer;
+
   text-decoration: none;
-  font-size: 3.5em;
+  font-size: 2.9em;
   display: flex;
   font-weight: 800;
+  margin-left: -0.2vw;
+  display: inline;
 }
 
 a {
   text-decoration: none;
-  transition: all 0.15s ease-in;
+  transition: all 0.3s ease;
 }
 
 .spacer {
-  flex: 0.97;
+  flex: 0.99;
 }
 
 .navbar-items ul {
   list-style: none;
   text-align: right;
-  margin-top: 16px;
-  margin-left: 13px;
-  margin-right: 20px;
   padding: 0;
+  margin-right: 8px;
   display: flex;
 }
 
-.navbar-items ul li .slash {
+/* .navbar-items ul li .slash {
   display: inline;
   color: #fefefe;
-  font-size: 1.1em;
-  margin-left: 1.4em;
-  margin-right: 1.4em;
-}
+  font-size: 1em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+} */
 
 .navbar-items a {
   text-decoration: none;
 
   color: #eee6dd;
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: 600;
+  padding-left: 2.5vw;
+  opacity: 0.86;
+}
+
+.navbar-logo h2 {
+  display: inline;
+  font-family: "sans-serif";
 }
 
 .navbar-items a .not-available {
@@ -80,11 +81,15 @@ a {
 }
 
 .navbar-items a:hover {
-  border-bottom: 2px solid #f5f5f5;
-  margin-left: 3px;
-  margin-right: 3px;
+  opacity: 1;
+  color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .navbar-wrapper {
+    width: 95%;
+  }
+}
 /*
 .fa-typo3 {
   margin-left: 0.5rem;

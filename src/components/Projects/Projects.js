@@ -8,35 +8,36 @@ function Projects() {
   return (
     <>
       <div className="background">
-        <div data-aos="fade-up" data-aos-duration="600">
-          <div className="project">
-            <div className="project-bar-container">
-              <div className="project-bar">
-                <h2>Portfolio</h2>
-              </div>
+        <div className="project">
+          <div className="project-bar-container">
+            <div
+              className="project-bar"
+              data-aos="fade-in"
+              data-aos-duration="600"
+            >
+              <h2>Portfolio</h2>
             </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
             <div className="project-grid">
-              <div data-aos="fade-up" data-aos-duration="600">
-                <div className="grid-item">
-                  <img src={waterlooimg} alt="" />
+              <div className="grid-item">
+                <img src={waterlooimg} alt="" />
+                <div className="grid-item-text">
                   <h2>Developing features for Open Source Libraries</h2>
                   <em>University of Waterloo</em>
                 </div>
               </div>
-              <div data-aos="fade-up">
+
+              <a href="https://github.com/eevanwong/League-Bot" target="_blank">
                 <div className="grid-item">
-                  <a
-                    href="https://github.com/eevanwong/League-Bot"
-                    target="_blank"
-                  >
-                    <img src={leagueimg} alt="" />
-                  </a>
-                  <h2>League Stats Discord Bot</h2>
-                  <h2>
+                  <img src={leagueimg} alt="" />
+                  <div className="grid-item-text">
+                    <h2>Learning NodeJS w/ League Bot</h2>
+
                     <em>Side Project</em>
-                  </h2>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

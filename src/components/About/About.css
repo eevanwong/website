@@ -1,41 +1,40 @@
 .about {
-  display: flex;
-  width: 100%;
+  width: 70%;
   height: 100%;
-  background: url("/src/Toronto.gif");
-  background-size: cover;
-  padding-bottom: 14em;
+  margin: 0 auto;
+
+  /* background: url("/src/Toronto.gif"); */
 }
 
 .about-wrapper {
-  margin: 0 auto;
   height: 100%;
-  width: 70%;
+  width: 100%;
+  margin-top: 10vh;
+  padding-bottom: 32vh;
 }
 
 .about-left-text {
   width: 70%;
-  margin-top: 10vh;
-
-  float: left;
 }
 
 .about-left-text h2 {
-  display: inline;
-  font-size: 4.2vw;
+  font-size: 4.5em;
   font-weight: 700;
   color: #f5f5f5;
 }
 
 .about-left-text h3 {
   color: #fefefe;
-  font-size: 1.7vw;
+  font-size: 1.6em;
   font-weight: 500;
   line-height: 130%;
 }
 
-@media screen and (min-height: 850px) {
-  .about-left-text h3 {
-    font-size: 1.75em;
+@media screen and (max-width: 600px) {
+  .about {
+    width: 95%;
+  }
+  .about-left-text {
+    width: 95%;
   }
 }

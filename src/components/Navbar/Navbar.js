@@ -11,33 +11,31 @@ function Navbar() {
 
     <>
       <div className="navbar-wrapper">
-        <div data-aos="fade-down" data-aos-duration="600">
-          <div className="navbar">
-            <div className="navbar-logo">
-              <a href="#/">&lt;EV&gt;</a>
-            </div>
-            <div className="spacer"></div>
-            <div className="navbar-items">
-              <ul>
-                <li>
-                  <a href="#/About" id="about">
-                    About Me
-                  </a>
-                </li>
-                <li>
-                  <div className="slash">\</div>
-                  <a href={"#/Projects"} id="projects">
-                    Portfolio
-                  </a>
-                </li>
-                <li>
-                  <div className="slash">\</div>
-                  <a href={pdf} target="_blank" id="n/a">
-                    Resume
-                  </a>
-                </li>
-              </ul>
-            </div>
+        <div className="navbar">
+          <div className="navbar-logo">
+            <a href="#/">&lt;EV&gt;</a>
+          </div>
+          <div className="spacer"></div>
+          <div className="navbar-items">
+            <ul>
+              <li>
+                <a href="#/About" id="about">
+                  About
+                </a>
+              </li>
+              <li>
+                {/* <div className="slash">\</div> */}
+                <a href={"#/Projects"} id="projects">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                {/* <div className="slash">\</div> */}
+                <a href={pdf} target="_blank" id="n/a">
+                  Resume
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

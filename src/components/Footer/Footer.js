@@ -9,19 +9,23 @@ function Footer() {
     <>
       <div className="footer-container">
         <div className="icons-container">
-          <div class="icons">
+          <div className="icons">
             <ul>
               <li>
                 <a
                   href="mailto:e92wong@uwaterloo.ca"
                   target="_blank"
-                  id="email"
+                  alt="email"
                 >
                   <img src={mail} />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/eevanwong" target="_blank">
+                <a
+                  href="https://github.com/eevanwong"
+                  target="_blank"
+                  alt="github"
+                >
                   <img src={github} />
                 </a>
               </li>
@@ -29,6 +33,7 @@ function Footer() {
                 <a
                   href="https://www.linkedin.com/in/iamevanwong/"
                   target="_blank"
+                  alt="linkedin"
                 >
                   <img src={linkedin} />
                 </a>
