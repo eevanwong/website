@@ -15,7 +15,7 @@ function Navbar() {
       <div className="navbar-wrapper">
         <div className="navbar">
           <div className="navbar-logo">
-            <a href={process.env.PUBLIC_URL}>&lt;EV&gt;</a>
+            <Link to={"/"}>&lt;EV&gt;</Link>
           </div>
           <div className="spacer"></div>
           <div className="navbar-items">
@@ -33,9 +33,9 @@ function Navbar() {
               </li>
               <li>
                 {/* <div className="slash">\</div> */}
-                <Link href={pdf} target="_blank" id="n/a">
+                <a href={pdf} target="_blank" id="n/a">
                   Resume
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
