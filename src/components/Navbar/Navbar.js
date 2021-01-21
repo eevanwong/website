@@ -15,7 +15,7 @@ function Navbar() {
       <div className="navbar-wrapper">
         <div className="navbar">
           <div className="navbar-logo">
-            <a href="/">&lt;EV&gt;</a>
+            <a href={process.env.PUBLIC_URL}>&lt;EV&gt;</a>
           </div>
           <div className="spacer"></div>
           <div className="navbar-items">
