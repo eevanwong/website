@@ -7,7 +7,7 @@
 /* bro I really had different css for each component smh */
 /* literally no point in this being here, change it  */
 .project-bar-container {
-  padding-top: 10vh;
+  padding-top: 8vh;
   margin-bottom: 10vh;
 }
 
@@ -28,7 +28,7 @@
   max-width: 70%;
   height: 100%;
   margin: 0 auto;
-  padding-bottom: 25vh;
+  padding-bottom: 10vh;
 }
 
 .project-grid {

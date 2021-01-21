@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import "../Sidedrawer/Drawertogglebutton.js";
 import pdf from "./EVAN_W_RESUME.pdf";
+
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 function Navbar() {
   //const [click, setClick] = useState(false); //hooks - need better understanding
   //const handleClick = () => setClick(!click);
@@ -13,27 +15,27 @@ function Navbar() {
       <div className="navbar-wrapper">
         <div className="navbar">
           <div className="navbar-logo">
-            <a href="#/">&lt;EV&gt;</a>
+            <a href="/">&lt;EV&gt;</a>
           </div>
           <div className="spacer"></div>
           <div className="navbar-items">
             <ul>
               <li>
-                <a href="#/About" id="about">
+                <Link to="/About" id="about">
                   About
-                </a>
+                </Link>
               </li>
               <li>
                 {/* <div className="slash">\</div> */}
-                <a href={"#/Projects"} id="projects">
+                <Link to={"/Projects"} id="projects">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
                 {/* <div className="slash">\</div> */}
-                <a href={pdf} target="_blank" id="n/a">
+                <Link href={pdf} target="_blank" id="n/a">
                   Resume
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

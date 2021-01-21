@@ -11,9 +11,9 @@
   height: 100%;
   margin: 0 auto;
   text-align: left;
-  color: #f5f5f5;
-  padding-bottom: 42vh;
-  margin-top: 10vh;
+  color: var(--text-colour);
+  padding-bottom: 35vh;
+  margin-top: 8vh;
 }
 
 .home-wrapper h2 {
@@ -27,7 +27,7 @@
 }
 
 .home-wrapper span {
-  color: #eeeedd;
+  color: var(--highlight-colour);
 }
 
 .home-wrapper h3 {
@@ -59,7 +59,7 @@
   margin-top: 10em;
   font-size: 2em;
   font-family: "montserrat";
-  border-right: 0.2rem solid white;
+  border-right: 0.2rem solid var(--text);
 }
 
 @media screen and (max-width: 600px) {
