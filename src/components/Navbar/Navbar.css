@@ -1,23 +1,21 @@
 .navbar-wrapper {
-  padding-top: 4vh;
-  width: 70%;
+  display: flex;
+  max-width: 1000px;
   margin: 0 auto;
 
   /*background-color: #40484b;*/
   /* background-color: #000000; */
+  padding: 0em 0.75em;
+  padding-top: 4vh;
   padding-bottom: 2.5vw;
 }
 
 .navbar {
   width: 100%;
-  background: transparent;
-  height: 60px;
+  flex-direction: row;
+
   display: flex;
-  justify-content: center;
   align-items: center;
-  position: sticky;
-  top: 0;
-  color: black;
 }
 
 .navbar-logo {
@@ -32,7 +30,6 @@
   font-size: 2.9em;
   display: flex;
   font-weight: 800;
-  margin-left: -0.2vw;
   display: inline;
 }
 
@@ -85,11 +82,11 @@ a {
   color: white;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .navbar-wrapper {
-    width: 95%;
+    max-width: 95%;
   }
-}
+} */
 /*
 .fa-typo3 {
   margin-left: 0.5rem;

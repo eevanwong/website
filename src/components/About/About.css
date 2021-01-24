@@ -1,7 +1,8 @@
 .about {
-  width: 70%;
-  height: 100%;
+  display: flex;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 0;
 
   /* background: url("/src/Toronto.gif"); */
 }
@@ -9,12 +10,14 @@
 .about-wrapper {
   height: 100%;
   width: 100%;
-  margin-top: 8vh;
-  padding-bottom: 32vh;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 6em;
+  padding-bottom: 10em;
 }
 
 .about-left-text {
-  width: 70%;
+  max-width: 70%;
 }
 
 .about-left-text h2 {
@@ -30,6 +33,7 @@
   line-height: 130%;
 }
 
+/* 
 @media screen and (max-width: 600px) {
   .about {
     width: 95%;
@@ -37,4 +41,4 @@
   .about-left-text {
     width: 95%;
   }
-}
+} */
