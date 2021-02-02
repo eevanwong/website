@@ -6,44 +6,38 @@ import linkedin from "./linkedin1.png";
 
 function Footer() {
   return (
-    <>
-      <div className="footer-container">
-        <div className="icons-container">
-          <div className="icons">
-            <ul>
-              <li>
-                <a
-                  href="mailto:e92wong@uwaterloo.ca"
-                  target="_blank"
-                  alt="email"
-                >
-                  <img src={mail} />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/eevanwong"
-                  target="_blank"
-                  alt="github"
-                >
-                  <img src={github} />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/iamevanwong/"
-                  target="_blank"
-                  alt="linkedin"
-                >
-                  <img src={linkedin} />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <h1>&lt;/EV&gt;</h1>
+    <div className="footer-container">
+      <div className="icons-container">
+        <div className="icons">
+          <ul>
+            <li>
+              <a href="mailto:e92wong@uwaterloo.ca" target="_blank" alt="email">
+                <img src={mail} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/eevanwong"
+                target="_blank"
+                alt="github"
+              >
+                <img src={github} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/iamevanwong/"
+                target="_blank"
+                alt="linkedin"
+              >
+                <img src={linkedin} />
+              </a>
+            </li>
+          </ul>
         </div>
+        <h1>&lt;/EV&gt;</h1>
       </div>
-    </>
+    </div>
   );
 }
 
