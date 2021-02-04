@@ -22,14 +22,17 @@ function Navbar() {
         <div className="navbar-items">
           <ul>
             <li class="navbar-items-active">
+              <Link to="/">Work</Link>
+            </li>
+            <li class="navbar-items-active">
               <Link to="/About">About</Link>
             </li>
-            <li>
-              {/* <div className="slash">\</div> */}
+            {/* <li>
+              <div className="slash">\</div>
               <Link className="navbar-items-active" to={"/Projects"}>
                 Portfolio
               </Link>
-            </li>
+            </li> */}
             <li>
               {/* <div className="slash">\</div> */}
               <a href={pdf} target="_blank" id="n/a">

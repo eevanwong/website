@@ -9,6 +9,8 @@ function Home() {
           <h2>
             Hey, I'm <span>Evan.</span>
           </h2>
+          <h3> Developing @uWaterloo</h3>
+
           <em
             className="txt-type"
             data-wait="2000"
@@ -17,13 +19,10 @@ function Home() {
             {" "}
           </em>
 
-          <h3>Developing @uWaterloo</h3>
-          <br></br>
-          <br></br>
           <br></br>
         </div>
         <div data-aos="fade-in" data-aos-duration="600" data-aos-delay="400">
-          <h4>[Looking for Development Opportunities for Winter 2021]</h4>
+          <h4>Looking for Development Opportunities for Winter 2021</h4>
         </div>
       </div>
     </div>

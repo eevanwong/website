@@ -4,8 +4,8 @@
   /* background: url("/src/Toronto.gif"); */
   margin: 8vh auto;
   align-items: center;
-  padding: 0 0.75em;
-  padding-bottom: 15em;
+  padding: 0 1em;
+  padding-bottom: 3em;
 }
 .home-wrapper {
   display: flex;
@@ -60,9 +60,10 @@
 }
 
 @media screen and (max-width: 600px) {
-  /* .home-wrapper {
-    max-width: 95%;
-  } */
+  .home {
+    text-align: left;
+    max-width: 96%;
+  }
 
   .home-wrapper h2,
   .home-wrapper em {
@@ -70,7 +71,11 @@
   }
 
   .home-wrapper h3 {
-    font-size: 3em;
+    font-size: 2.3em;
+  }
+
+  .home-wrapper h4 {
+    font-size: 1.5em;
   }
 }
 

@@ -13,7 +13,7 @@
   margin-left: 0.5em;
   margin-right: 0.5em;
   margin-top: 8vh;
-  padding-bottom: 10em;
+  padding-bottom: 15em;
 }
 
 .about-left-text {
@@ -33,12 +33,19 @@
   line-height: 130%;
 }
 
-/* 
 @media screen and (max-width: 600px) {
   .about {
-    width: 95%;
+    width: 93%;
+  }
+
+  .about h2 {
+    font-size: 3.5em;
+  }
+
+  .about h3 {
+    font-size: 1.5em;
   }
   .about-left-text {
-    width: 95%;
+    max-width: 100%;
   }
-} */
+}

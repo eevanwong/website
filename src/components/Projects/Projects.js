@@ -1,21 +1,26 @@
 import React from "react";
 import "./Projects.css";
-import leagueimg from "./Home-page.jpg";
+import leagueimg from "./discbotbanner.png";
 import waterlooimg from "./waterloo.jpg";
 
 function Projects() {
   //Work lines up with the project tab
   return (
-    <div className="background">
-      <div className="project-bar-container">
-        <div className="project-bar" data-aos="fade-in" data-aos-duration="600">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="300"
+      data-aos-anchor=".home"
+    >
+      <div className="background">
+        {/* <div className="project-bar-container">
           <h2>Portfolio</h2>
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+        </div> */}
         <div className="project-grid">
           <div className="grid-item">
-            <img src={waterlooimg} alt="" />
+            <div className="grid-item-img">
+              <img src={waterlooimg} alt="" id="item1" />
+            </div>
             <div className="grid-item-text">
               <h2>Developing features for Open Source Libraries</h2>
               <em>University of Waterloo</em>
@@ -24,7 +29,9 @@ function Projects() {
 
           <a href="https://github.com/eevanwong/League-Bot" target="_blank">
             <div className="grid-item">
-              <img src={leagueimg} alt="" />
+              <div className="grid-item-img" id="item2">
+                <img src={leagueimg} alt="" />
+              </div>
               <div className="grid-item-text">
                 <h2>Learning webscraping w/ League Discord Bot</h2>
 

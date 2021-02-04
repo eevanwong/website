@@ -3,8 +3,8 @@
   max-width: 1000px;
   flex-direction: column;
   margin: 0 auto;
-  padding: 0.5em 0.75em;
-  padding-bottom: 15vh;
+  padding: 0.5em 1em;
+  padding-bottom: 5em;
 
   /* background: url("/src/Toronto.gif"); */
 }
@@ -57,7 +57,7 @@
 }
 
 .grid-item-text h2 {
-  font-size: 1.5rem;
+  font-size: 1.4em;
   color: white;
   text-decoration: none !important;
   margin-bottom: 0;
@@ -73,10 +73,25 @@
   color: orange;
 }
 
+.grid-item-img {
+  display: flex;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+  height: 17em;
+}
+
 .grid-item img {
   width: 100%;
 
   border-radius: 10px 10px 0px 0px;
+}
+
+#item1 {
+  height: 100%;
+}
+
+#item2 {
+  background-color: #4d5e72;
 }
 
 .grid-item:hover {
@@ -85,6 +100,5 @@
 
 @media screen and (max-width: 600px) {
   .project {
-    max-width: 95%;
   }
 }
