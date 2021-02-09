@@ -1,21 +1,19 @@
 .footer-container {
-  position: relative;
-  height: 100%;
+  display: flex;
   margin: 0 auto;
-  bottom: 0;
   background-color: #1c1c1c;
-  width: 70%;
-  border-top-style: solid;
-  border-color: #888888;
-  border-width: 3px;
+  max-width: 1000px;
 }
 
 .icons-container {
-  margin: 0 auto;
   width: 100%;
-  height: auto;
-  padding-bottom: 1.5vh;
-  padding-top: 1.5vh;
+  border-top-style: solid;
+  border-color: #888888;
+  border-width: 3px;
+  padding-bottom: 1em;
+  padding-top: 0.75em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
 }
 
 .icons-container h1 {
@@ -41,7 +39,8 @@
 
 .icons ul li {
   display: inline-block;
-  margin-right: 1.5em;
+  margin-right: 1.25em;
+  margin-left: -0.2em;
 }
 
 .icons ul li img:hover {
@@ -59,8 +58,10 @@
   width: 1.8em;
   height: 1.8em;
 }
+
+/* 
 @media screen and (max-width: 600px) {
   .footer-container {
     width: 95%;
   }
-}
+} */

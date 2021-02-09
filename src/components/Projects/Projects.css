@@ -1,25 +1,28 @@
 .background {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  max-width: 1000px;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0.5em 0.75em;
+  padding-bottom: 15vh;
+
   /* background: url("/src/Toronto.gif"); */
-  background-size: cover;
 }
 /* bro I really had different css for each component smh */
 /* literally no point in this being here, change it  */
 .project-bar-container {
-  padding-top: 10vh;
-  margin-bottom: 10vh;
+  width: 100%;
+  padding-top: 8vh;
+  margin-bottom: 3em;
 }
 
 .project-bar {
-  margin: 0 auto;
   width: 100%;
   height: 100%;
   color: white;
 }
 
 .project-bar h2 {
-  margin-left: -0.1em;
   font-size: 4.5em;
   font-weight: 700;
 }
@@ -28,16 +31,15 @@
   max-width: 70%;
   height: 100%;
   margin: 0 auto;
-  padding-bottom: 25vh;
 }
 
 .project-grid {
   display: grid;
   align-items: center;
-  grid-column-gap: 48px;
-  grid-row-gap: 8px;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(15.8em, 1fr));
-  grid-template-rows: auto + 4em;
+  grid-template-rows: auto;
 }
 
 .grid-item {
