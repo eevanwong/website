@@ -2,9 +2,6 @@
   display: flex;
   max-width: 1000px;
   margin: 0 auto;
-
-  /*background-color: #40484b;*/
-  /* background-color: #000000; */
   padding: 0em 0.75em;
   padding-top: 4vh;
   padding-bottom: 2.5vw;
@@ -24,7 +21,7 @@
 }
 .navbar-logo a {
   font-family: "poppins";
-  color: #eee6dd;
+  color: var(--highlight-colour);
   margin-left: -0.1em;
   text-decoration: none;
   font-size: 2.9em;
@@ -59,15 +56,15 @@ a {
 } */
 
 .navbar-items ul li {
-  padding-left: 2.5em;
+  padding-left: 2.8em;
 }
 
 .navbar-items ul li a {
   text-decoration: none;
 
-  color: #eee6dd;
-  font-size: 1.35em;
-  font-weight: 600;
+  color: var(--text-colour);
+  font-size: 1.1em;
+  font-weight: 400;
   opacity: 0.76;
 }
 
@@ -78,12 +75,12 @@ a {
 
 .navbar-items a:hover {
   opacity: 1;
-  color: white;
+  color: var(--text-colour);
 }
 
 .navbar-items-active {
   opacity: 1;
-  color: white;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {

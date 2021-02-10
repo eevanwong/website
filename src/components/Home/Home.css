@@ -15,12 +15,12 @@
 
 .home-wrapper h2 {
   font-size: 4.5em;
-  font-weight: 700;
+  font-weight: 500;
   padding: 0;
 }
 
 .home-wrapper h2 span {
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .home-wrapper span {
@@ -29,11 +29,12 @@
 
 .home-wrapper h3 {
   font-size: 4em;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .home-wrapper h4 {
   font-size: 2em;
+  font-weight: 100;
 }
 
 .icons {

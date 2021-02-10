@@ -5,7 +5,6 @@
   margin: 0 auto;
   padding: 0.5em 1em;
   padding-bottom: 5em;
-
   /* background: url("/src/Toronto.gif"); */
 }
 /* bro I really had different css for each component smh */
@@ -23,8 +22,8 @@
 }
 
 .project-bar h2 {
-  font-size: 4.5em;
-  font-weight: 700;
+  font-size: 3em;
+  font-weight: 300;
 }
 
 .project {
@@ -38,34 +37,40 @@
   align-items: center;
   grid-column-gap: 2em;
   grid-row-gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(15.8em, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: auto;
 }
 
 .grid-item {
-  border: 2px solid #808080;
-  border-radius: 11.5px;
+  /*border-radius: 11.5px;*/
+  width: 100%;
   transition: 0.4s ease;
-  background-color: #1c1c1c;
+  background-color: var(--background);
 }
 
 .grid-item-text {
   margin: 0 auto;
-  width: 93%;
+  width: 100%;
   height: 100%;
-  padding-bottom: 10px;
+  margin: 0.6em 0;
 }
 
+/* .grid-item-text h2,
+em {
+  font-family: "Source Serif Pro", serif;
+} */
+
 .grid-item-text h2 {
-  font-size: 1.4em;
-  color: white;
+  font-size: 1.2em;
+  color: var(--text-colour);
   text-decoration: none !important;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .grid-item-text em {
-  font-size: 18px;
-  color: white;
+  font-size: 1em;
+  color: var(--text-colour);
   margin-bottom: 10px;
 }
 
@@ -76,29 +81,33 @@
 .grid-item-img {
   display: flex;
   align-items: center;
-  border-radius: 10px 10px 0px 0px;
-  height: 17em;
+  width: 100%;
+  height: 18em;
+  border-radius: 5px;
+  transition: 0.08s ease-in;
 }
 
 .grid-item img {
   width: 100%;
-
-  border-radius: 10px 10px 0px 0px;
+  max-height: 100%;
+  border-radius: 5px;
 }
 
 #item1 {
-  height: 100%;
+  width: 100%;
+  background-color: #fce8dd;
 }
 
 #item2 {
   background-color: #4d5e72;
 }
 
-.grid-item:hover {
-  transform: translateY(-8px);
+.grid-item:hover .grid-item-img {
+  filter: brightness(90%);
 }
 
 @media screen and (max-width: 600px) {
-  .project {
+  .project-grid {
+    grid-template-columns: auto;
   }
 }

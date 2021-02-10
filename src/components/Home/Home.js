@@ -7,7 +7,7 @@ function Home() {
       <div className="home-wrapper">
         <div data-aos="fade-in" data-aos-duration="600">
           <h2>
-            Hey, I'm <span>Evan.</span>
+            Hi, I'm <span>Evan.</span>
           </h2>
           <h3> Developing @uWaterloo</h3>
 
@@ -21,7 +21,12 @@ function Home() {
 
           <br></br>
         </div>
-        <div data-aos="fade-in" data-aos-duration="600" data-aos-delay="400">
+        <div
+          data-aos="fade-in"
+          data-aos-duration="600"
+          data-aos-delay="400"
+          data-aos-anchor=".home"
+        >
           <h4>Looking for Development Opportunities for Winter 2021</h4>
         </div>
       </div>

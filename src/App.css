@@ -2,6 +2,13 @@
   --highlight-colour: #eee6dd;
   --text-colour: #fefefe;
   --background: #1c1c1c;
+
+  /* --highlight-colour: #111922;
+  --text-colour: #010101;
+  --background: #fff; */
+
+  --heading: "poppins", sans-serif;
+  --body: "Source Serif Pro", serif;
 }
 
 * {
@@ -9,9 +16,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Source sans pro", sans-serif;
-  font-weight: 450;
+  font-family: var(--heading);
+  font-weight: 300;
   scrollbar-width: thin;
+}
+
+.home,
+.navbar-wrapper,
+.background,
+.footer-container,
+.about {
+  max-width: 1050px !important;
 }
 
 /*

@@ -1,14 +1,14 @@
 .footer-container {
   display: flex;
   margin: 0 auto;
-  background-color: #1c1c1c;
+  background-color: var(--background);
   max-width: 1000px;
 }
 
 .icons-container {
   width: 100%;
   border-top-style: solid;
-  border-color: #888888;
+  border-color: #777777;
   border-width: 3px;
   padding-bottom: 1em;
   padding-top: 0.75em;
@@ -17,8 +17,7 @@
 }
 
 .icons-container h1 {
-  font-family: "poppins";
-  color: #eee6dd;
+  color: var(--highlight-colour);
   font-size: 1.6em;
   margin-bottom: 1.2vh;
   font-weight: 600;

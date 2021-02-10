@@ -18,8 +18,8 @@ function Projects() {
         </div> */}
         <div className="project-grid">
           <div className="grid-item">
-            <div className="grid-item-img">
-              <img src={waterlooimg} alt="" id="item1" />
+            <div className="grid-item-img" id="item1">
+              <img src={waterlooimg} alt="" />
             </div>
             <div className="grid-item-text">
               <h2>Developing features for Open Source Libraries</h2>
