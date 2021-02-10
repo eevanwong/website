@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Website/static/css/main.039a64cf.chunk.css",
-    "main.js": "/React-Website/static/js/main.376f684b.chunk.js",
-    "main.js.map": "/React-Website/static/js/main.376f684b.chunk.js.map",
-    "runtime-main.js": "/React-Website/static/js/runtime-main.aefda55b.js",
-    "runtime-main.js.map": "/React-Website/static/js/runtime-main.aefda55b.js.map",
-    "static/js/2.a2104db7.chunk.js": "/React-Website/static/js/2.a2104db7.chunk.js",
-    "static/js/2.a2104db7.chunk.js.map": "/React-Website/static/js/2.a2104db7.chunk.js.map",
+    "main.css": "/React-Website/static/css/main.2169e319.chunk.css",
+    "main.js": "/React-Website/static/js/main.b2c90a1e.chunk.js",
+    "main.js.map": "/React-Website/static/js/main.b2c90a1e.chunk.js.map",
+    "runtime-main.js": "/React-Website/static/js/runtime-main.343ed68a.js",
+    "runtime-main.js.map": "/React-Website/static/js/runtime-main.343ed68a.js.map",
+    "static/js/2.a78c175c.chunk.js": "/React-Website/static/js/2.a78c175c.chunk.js",
+    "static/js/2.a78c175c.chunk.js.map": "/React-Website/static/js/2.a78c175c.chunk.js.map",
     "index.html": "/React-Website/index.html",
-    "static/css/main.039a64cf.chunk.css.map": "/React-Website/static/css/main.039a64cf.chunk.css.map",
-    "static/js/2.a2104db7.chunk.js.LICENSE.txt": "/React-Website/static/js/2.a2104db7.chunk.js.LICENSE.txt",
+    "static/css/main.2169e319.chunk.css.map": "/React-Website/static/css/main.2169e319.chunk.css.map",
+    "static/js/2.a78c175c.chunk.js.LICENSE.txt": "/React-Website/static/js/2.a78c175c.chunk.js.LICENSE.txt",
     "static/media/EVAN_W_RESUME.5ff0bb7a.pdf": "/React-Website/static/media/EVAN_W_RESUME.5ff0bb7a.pdf",
-    "static/media/Home-page.1face53b.jpg": "/React-Website/static/media/Home-page.1face53b.jpg",
+    "static/media/discbotbanner.15ae0924.png": "/React-Website/static/media/discbotbanner.15ae0924.png",
     "static/media/email.62652082.png": "/React-Website/static/media/email.62652082.png",
     "static/media/linkedin1.65889230.png": "/React-Website/static/media/linkedin1.65889230.png",
     "static/media/waterloo.0b71640f.jpg": "/React-Website/static/media/waterloo.0b71640f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aefda55b.js",
-    "static/js/2.a2104db7.chunk.js",
-    "static/css/main.039a64cf.chunk.css",
-    "static/js/main.376f684b.chunk.js"
+    "static/js/runtime-main.343ed68a.js",
+    "static/js/2.a78c175c.chunk.js",
+    "static/css/main.2169e319.chunk.css",
+    "static/js/main.b2c90a1e.chunk.js"
   ]
 }
