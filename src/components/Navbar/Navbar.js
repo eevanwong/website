@@ -20,13 +20,13 @@ function Navbar() {
         <div className="spacer"></div>
         <div className="navbar-items">
           <ul>
-            <li class="navbar-items-active">
+            {/* <li class="navbar-items-active">
               <Link to="/">Work</Link>
             </li>
             <li class="navbar-items-active">
               <Link to="/About">About</Link>
             </li>
-            {/* <li>
+            <li>
               <div className="slash">\</div>
               <Link className="navbar-items-active" to={"/Projects"}>
                 Portfolio
