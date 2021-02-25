@@ -84,9 +84,9 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar {
+  /* .navbar {
     flex-direction: column;
-  }
+  } */
 
   .navbar-items {
     width: 350px;
@@ -95,7 +95,7 @@ a {
     width: auto;
   }
 
-  .navbar-items ul {
+  /* .navbar-items ul {
     display: flex;
     margin-right: 0px;
     margin-top: 12px;
@@ -104,7 +104,7 @@ a {
 
   .navbar-items ul li {
     padding-left: 0;
-  }
+  } */
 }
 /*
 .fa-typo3 {

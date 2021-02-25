@@ -25,7 +25,8 @@
 .navbar-wrapper,
 .background,
 .footer-container,
-.about {
+.about,
+.wrapper {
   max-width: 1050px !important;
 }
 

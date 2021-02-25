@@ -111,3 +111,10 @@ em {
     grid-template-columns: auto;
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .project-grid {
+    /* grid-column: auto; */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
